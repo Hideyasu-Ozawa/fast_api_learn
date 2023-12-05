@@ -14,7 +14,8 @@ body:
       label: PBI
       description: |
         SBIが紐づく親PBIのリンクを記載ください
-    value: - 
+    value: |
+      - 
     validations:
       required: true
   - type: textarea
