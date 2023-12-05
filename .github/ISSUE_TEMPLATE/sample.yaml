@@ -22,8 +22,11 @@ body:
       description: 「誰 (ペルソナ)」が「何 (機能やサービス)」を「なぜ (価値)」を求めているのでしょうか
       value: |
         ## ペルソナ
+        - 
         ## 機能やサービス
+        - 
         ## 価値
+        - 
     validations:
       required: true
   - type: textarea
