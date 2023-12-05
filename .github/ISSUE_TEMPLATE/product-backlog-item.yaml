@@ -10,8 +10,8 @@ body:
         PBI(Product Backlog Item)を記載します
         起票時は問題、実現したいこと・ユーザーストーリーの2項目を記載してください
         SBIと受入れ基準は起票時には記載不要です
-  - type: input
-    id: problem
+  - type: textarea
+    id: issue
     attributes:
       label: 問題
       description: どのような問題がありますか
