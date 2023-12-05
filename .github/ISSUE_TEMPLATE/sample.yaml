@@ -25,10 +25,13 @@ body:
       value: |
         ## ペルソナ
         - 
+        
         ## 機能やサービス
         - 
+        
         ## 価値
         - 
+        
     validations:
       required: true
   - type: textarea
