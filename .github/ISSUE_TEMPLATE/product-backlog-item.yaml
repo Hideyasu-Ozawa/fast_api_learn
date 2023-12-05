@@ -1,6 +1,6 @@
 name: PBI
 description: PBI(Product Backlog Item)用のIssueテンプレートです
-title: "[PBI]: "
+title: "[📂 PBI]: "
 labels: ["pbi"]
 # projects: ["octo-org/1", "octo-org/44"]
 body:
