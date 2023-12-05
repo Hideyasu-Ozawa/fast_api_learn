@@ -33,13 +33,17 @@ body:
     id: sbi
     attributes:
       label: SBI
-      description: PBIに紐づくSBIを列挙します。PBI起票時は記載なしで問題ありません。
+      description: |
+        PBIに紐づくSBIを列挙します
+        PBI起票時は記載なしで問題ありません
     validations:
       required: false
   - type: textarea
     id: acceptance-criteria
     attributes:
       label: 受入れ基準
-      description: 結合テストの正常系シナリオのインプットとなります。PBIに紐づくSBIにて定義するためPBI起票時は記載なしで問題ありません。
+      description: |
+        結合テストの正常系シナリオのインプットとなります
+        PBIに紐づくSBIにて定義するためPBI起票時は記載なしで問題ありません
     validations:
       required: false
