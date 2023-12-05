@@ -16,7 +16,7 @@ body:
         SBIが紐づく親PBIのリンクを記載ください
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: purpose
     attributes:
       label: 目的
