@@ -1,6 +1,6 @@
 name: SBI
 description: SBI(Sprint Backlog Item)用のIssueテンプレートです
-title: "[SBI]: "
+title: "[🔖 SBI]: "
 labels: ["sbi"]
 # projects: ["octo-org/1", "octo-org/44"]
 body:
