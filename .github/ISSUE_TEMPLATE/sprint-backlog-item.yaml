@@ -1,0 +1,27 @@
+name: SBI
+description: SBI(Sprint Backlog Item)用のIssueテンプレートです
+title: "[SBI]: "
+labels: ["sbi"]
+# projects: ["octo-org/1", "octo-org/44"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        PBI(Product Backlog Item)を記載します
+        起票時は問題、実現したいこと・ユーザーストーリーの2項目を記載してください
+        SBIと受入れ基準は起票時には記載不要です
+  - type: textarea
+    id: pbi
+    attributes:
+      label: PBI
+      description: |
+        PBIに紐づくSBIを列挙します
+    validations:
+      required: true
+  - type: input
+    id: purpose
+    attributes:
+      label: 目的
+      description: PBIに対し、何を実現するためのSBIでしょうか
+    validations:
+      required: true
