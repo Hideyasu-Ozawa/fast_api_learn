@@ -7,15 +7,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        PBI(Product Backlog Item)を記載します
-        起票時は問題、実現したいこと・ユーザーストーリーの2項目を記載してください
-        SBIと受入れ基準は起票時には記載不要です
+        SBI(Product Backlog Item)の目的を記載します
   - type: textarea
     id: pbi
     attributes:
       label: PBI
       description: |
-        PBIに紐づくSBIを列挙します
+        SBIが紐づく親PBIのリンクを記載ください
     validations:
       required: true
   - type: input
