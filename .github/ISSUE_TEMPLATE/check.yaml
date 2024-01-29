@@ -1,30 +1,46 @@
-name: Check
-description: Create a report to help us improve
-title: "[BUG] "
-labels: [bug, triage]
-assignees: 
-- octocat
-- github-bot
+name: Test Design
+description: テスト設計用のIssueテンプレート
+title: "[🔖 Dev]: "
+labels: ["dev"]
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        テスト設計に関するテンプレートです。全機能を横断するような機能を開発する際にご利用ください。
+
   - type: checkboxes
     id: checklist
     attributes:
-      label: Checklist
-      description: Please make sure you've completed the following steps before submitting your issue.
+      label: 確認観点
+      description: 下記観点を考慮していることを確認ください
       options:
-        - label: I have searched the existing issues
-          required: true
-        - label: I have provided detailed steps to reproduce the issue
-          required: true
-        - label: I have included the version of the software I am using
+        - label: 画面遷移
           required: false
-
+        - label: データパターン
+          required: false
+        - label: ローカル上の確認観点
+          required: false
+        - label: dev 環境上の確認観点
+          required: false
+        - label: stg 環境上の確認観点
+          required: false
+  
   - type: textarea
-    id: enhancement-request
+    id: relative-issue
     attributes:
-      label: 改善要望
+      label: 関連Issue
       description: |
-        開発タスクが紐づく改善要望のリンクを記載ください
+        関連Issueのリンクを記載ください
       value: |
         -
+    validations:
+      required: true
+        
+  - type: textarea
+    id: test-design
+    attributes:
+      label: テスト設計
+      description: |
+        以下にテスト設計を記載ください
+      value: |
