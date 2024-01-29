@@ -7,13 +7,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        テスト設計に関するテンプレートです。全機能を横断するような機能を開発する際にご利用ください。
+        テスト設計に関するテンプレートです。影響範囲の広い機能を開発する際にご利用ください。
 
   - type: checkboxes
     id: checklist
     attributes:
-      label: 確認観点
-      description: 下記観点を考慮していることを確認ください
+      label: レビュー観点
+      description: ユースケース考慮の上、下記観点を整理していることを確認ください
       options:
         - label: 画面遷移
           required: false
@@ -42,6 +42,8 @@ body:
     attributes:
       label: テスト設計
       description: |
-        以下にテスト設計を記載ください
+        テスト設計の内容を記載ください
       value: |
         -
+    validations:
+      required: true
