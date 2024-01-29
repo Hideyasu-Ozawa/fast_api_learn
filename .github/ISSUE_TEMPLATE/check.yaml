@@ -21,5 +21,10 @@ body:
           required: false
 
   - type: textarea
+    id: enhancement-request
     attributes:
+      label: 改善要望
+      description: |
+        開発タスクが紐づく改善要望のリンクを記載ください
       value: |
+        -
