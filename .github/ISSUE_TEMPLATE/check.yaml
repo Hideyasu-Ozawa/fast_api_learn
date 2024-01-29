@@ -19,3 +19,7 @@ body:
           required: true
         - label: I have included the version of the software I am using
           required: false
+
+  - type: markdown
+    attributes:
+      value: |
