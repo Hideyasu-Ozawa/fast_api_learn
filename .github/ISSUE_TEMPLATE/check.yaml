@@ -7,9 +7,6 @@ assignees:
 - github-bot
 
 body:
-  - type: markdown
-    attributes:
-      value: "Thanks for taking the time to fill out this bug report!"
   - type: checkboxes
     id: checklist
     attributes:
@@ -22,12 +19,3 @@ body:
           required: true
         - label: I have included the version of the software I am using
           required: false
-  - type: textarea
-    id: bug-description
-    attributes:
-      label: Bug Description
-      description: "A clear and concise description of what the bug is."
-      placeholder: "Tell us what happened..."
-      value: ""
-    validations:
-      required: true
